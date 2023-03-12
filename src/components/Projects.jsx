@@ -6,6 +6,7 @@ import tenzie from "../assets/ten-hkr.jpg";
 import LandingPage2 from "../assets/L2-hkr.jpg";
 import LandingPage1 from "../assets/L1-hkr.jpg";
 import saviour from "../assets/savior-hkr.jpg";
+import Register from "../assets/register.jpg";
 
 const Projects = () => {
   const projects = [
@@ -46,12 +47,12 @@ const Projects = () => {
       codeLink: "https://github.com/HimanshukrRana/Tenzies-game1",
     },
 
-    // {
-    //   id: 6,
-    //   image: YoutubeClone,
-    //   demoLink: '#',
-    //   codeLink: '',
-    //   },
+    {
+      id: 7,
+      image: Register,
+      demoLink: "#",
+      codeLink: "",
+    },
   ];
 
   return (
