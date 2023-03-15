@@ -7,6 +7,7 @@ import LandingPage2 from "../assets/L2-hkr.jpg";
 import LandingPage1 from "../assets/L1-hkr.jpg";
 import saviour from "../assets/savior-hkr.jpg";
 import Register from "../assets/register.jpg";
+import Admin from "../assets/admin.jpg";
 
 const Projects = () => {
   const projects = [
@@ -50,8 +51,15 @@ const Projects = () => {
     {
       id: 7,
       image: Register,
-      demoLink: "#",
-      codeLink: "",
+      demoLink: "https://github.com/HimanshukrRana/Expense_Tracker",
+      codeLink: "expense-tracker-hkr.vercel.app",
+    },
+    {
+      id: 8,
+      image: Admin,
+      demoLink:
+        "https://github.com/HimanshukrRana/refine_dashboard/tree/main/client",
+      codeLink: "refine-dashboard-dun.vercel.app",
     },
   ];
 

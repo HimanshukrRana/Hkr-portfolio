@@ -163,9 +163,9 @@ const EdSkill = () => {
   return (
     <div
       name="EdSkills"
-      className="w-full sm:h-screen md:h-screen sm:py-[40%] pt-[15%] bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full sm:h-screen md:h-screen sm:py-[40%] pt-[15%] bg-gradient-to-b from-gray-800 to-black text-white "
     >
-      <div className="max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full text-white mt-12">
         <div className="pb-1">
           <p className="text-4xl font-bold inline border-b-4 p-2 border-gray-500">
             Experience
