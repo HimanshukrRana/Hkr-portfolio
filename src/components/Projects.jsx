@@ -8,6 +8,7 @@ import LandingPage1 from "../assets/L1-hkr.jpg";
 import saviour from "../assets/savior-hkr.jpg";
 import Register from "../assets/register.jpg";
 import Admin from "../assets/admin.jpg";
+import Fixit from "../assets/fixit.jpg";
 
 const Projects = () => {
   const projects = [
@@ -51,15 +52,21 @@ const Projects = () => {
     {
       id: 7,
       image: Register,
-      demoLink: "https://github.com/HimanshukrRana/Expense_Tracker",
-      codeLink: "expense-tracker-hkr.vercel.app",
+      demoLink: "expense-tracker-hkr.vercel.app",
+      codeLink: "https://github.com/HimanshukrRana/Expense_Tracker",
     },
     {
       id: 8,
       image: Admin,
-      demoLink:
+      demoLink: "refine-dashboard-dun.vercel.app",
+      codeLink:
         "https://github.com/HimanshukrRana/refine_dashboard/tree/main/client",
-      codeLink: "refine-dashboard-dun.vercel.app",
+    },
+    {
+      id: 9,
+      image: Fixit,
+      demoLink: "https://fixit-templete.vercel.app/",
+      codeLink: "https://github.com/HimanshukrRana/Fixit-templete",
     },
   ];
 
