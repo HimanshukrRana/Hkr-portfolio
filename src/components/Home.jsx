@@ -9,19 +9,26 @@ const Home = () => {
     <div
       name="Home"
       className="w-full pt-12 sm:h-screen
-         bg-gradient-to-b from-black to-gray-800 via-black"
+         "
     >
       <div className="max-w-screen-md mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row sm:ml-12 md:mx-auto">
         <div className="flex flex-col justify-center h-full pt-10">
-          <h2 className="text-4xl sm:text-6xl font-bold  text-white">
+          <h2 className="text-4xl sm:text-6xl font-bold  ">
             I'm a Aspiring Front-End Developer
           </h2>
 
           <p className="text-gray-500 py-4  max-w-md">
-            A web developer and Javascript enthusiast with an intense curiosity
-            about all aspects of web development area as well as the ability to
-            learn new stuffs in any area related to innovative technology,
-            creating websites and applications.
+            I am enthusiastic about learning and expanding my skills. I have
+            completed various online courses and tutorials to enhance my
+            knowledge, and I am eager to apply my abilities and contribute to a
+            team in a professional environment. I possess excellent learning
+            skills and am committed to solving complex problems. I am confident
+            that my contributions would be valuable to any frontend development
+            team.
+            {/* A web developer and Javascript enthusiast with an intense
+            curiosity about all aspects of web development area as well as the
+            ability to learn new stuffs in any area related to innovative
+            technology, creating websites and applications. */}
           </p>
 
           <div>

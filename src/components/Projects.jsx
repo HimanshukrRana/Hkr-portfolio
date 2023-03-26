@@ -9,6 +9,7 @@ import saviour from "../assets/savior-hkr.jpg";
 import Register from "../assets/register.jpg";
 import Admin from "../assets/admin.jpg";
 import Fixit from "../assets/fixit.jpg";
+import Crypto from "../assets/crypto.jpg";
 
 const Projects = () => {
   const projects = [
@@ -68,12 +69,18 @@ const Projects = () => {
       demoLink: "https://fixit-templete.vercel.app/",
       codeLink: "https://github.com/HimanshukrRana/Fixit-templete",
     },
+    {
+      id: 10,
+      image: Crypto,
+      demoLink: "https://crypto-tracker-hkr.vercel.app/",
+      codeLink: "https://github.com/HimanshukrRana/Crypto-Tracker",
+    },
   ];
 
   return (
     <div
       name="Projects"
-      className="bg-gradient-to-b from-black to-gray-800 pt-[20%] w-full sm:h-screen md:h-screen text-white"
+      className="bg-gradient-to-b from-black to-gray-800 pt-[5%] w-full  text-white"
     >
       <div className="max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

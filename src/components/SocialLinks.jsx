@@ -63,12 +63,12 @@ const SocialLinks = () => {
           Resume <BsPersonLinesFill size={30} className="ml-2 text-white" />
         </>
       ),
-      link: "https://drive.google.com/file/d/1AMmDrKbdkyaEy7i90CQm6XNleN9KmHrS/view?usp=share_link",
+      link: "https://drive.google.com/file/d/1YfD81D5Hl4cm0vb98kE59fm4LF3bAAZb/view?usp=share_link",
     },
   ];
   return (
     <div>
-      <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
+      <div className=" hidden md:flex flex-col top-[35%] left-0 fixed">
         <ul>
           {social.map(({ id, color, child, link }) => {
             return (
