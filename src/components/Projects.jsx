@@ -10,6 +10,7 @@ import Register from "../assets/register.jpg";
 import Admin from "../assets/admin.jpg";
 import Fixit from "../assets/fixit.jpg";
 import Crypto from "../assets/crypto.jpg";
+import Blog from "../assets/blog.jpg";
 
 const Projects = () => {
   const projects = [
@@ -74,6 +75,12 @@ const Projects = () => {
       image: Crypto,
       demoLink: "https://crypto-tracker-hkr.vercel.app/",
       codeLink: "https://github.com/HimanshukrRana/Crypto-Tracker",
+    },
+    {
+      id: 11,
+      image: Blog,
+      demoLink: "https://blog-sanity-hkr.vercel.app",
+      codeLink: "https://github.com/HimanshukrRana/Blog_sanity",
     },
   ];
 
