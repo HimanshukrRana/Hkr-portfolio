@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FaArrowRight } from "react-icons/fa";
 
-import Hero from "../assets/hero2.jpeg";
+import Hero from "../assets/h3.png";
 
 const Home = () => {
   return (
