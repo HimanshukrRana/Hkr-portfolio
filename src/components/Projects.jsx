@@ -11,6 +11,7 @@ import Admin from "../assets/admin.jpg";
 import Fixit from "../assets/fixit.jpg";
 import Crypto from "../assets/crypto.jpg";
 import Blog from "../assets/blog.jpg";
+import Portfolio from "../assets/portfolio.jpg";
 
 const Projects = () => {
   const projects = [
@@ -81,6 +82,12 @@ const Projects = () => {
       image: Blog,
       demoLink: "https://blog-sanity-hkr.vercel.app",
       codeLink: "https://github.com/HimanshukrRana/Blog_sanity",
+    },
+    {
+      id: 12,
+      image: Portfolio,
+      demoLink: "#",
+      codeLink: "https://github.com/HimanshukrRana/Hkr-portfolio",
     },
   ];
 
